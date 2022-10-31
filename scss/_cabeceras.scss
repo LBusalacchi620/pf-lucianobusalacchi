@@ -1,0 +1,28 @@
+@import 'variables';
+@import 'mixins';
+
+/* colorCabeceras posicionstincky!*/
+
+.colorCabeceras{
+    background-color: map-get($colores,color-cabecera);
+    width: 100%;
+   
+}
+.cabecerasize{
+    height: 15%;
+    width: 100%;
+}    
+.posicionstincky{
+    position: sticky;
+}
+.posicionabajo{
+    bottom: 0;
+
+}
+.alineacionfooter{
+    text-align: center;
+    display: flex;
+    font-size: 2rem;
+    color: #fff;
+    animation: float infinite 4s ease-in-out ;
+}
