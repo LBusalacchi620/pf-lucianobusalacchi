@@ -45,9 +45,6 @@ main {
 footer {
   height: 15%; }
 
-.colorCabeceras {
-  background-color: rgba(239, 224, 224, 0.24); }
-
 .col-info {
   background-color: rgba(233, 164, 118, 0.24);
   padding: 1rem 1 rem 1rem 1rem;
@@ -86,20 +83,6 @@ footer {
   margin-top: calc(var(--bs-gutter-y) * -1);
   margin-right: calc(var(--bs-gutter-x) * -.5);
   margin-left: calc(var(--bs-gutter-x) * -.5); }
-
-.video-responsive {
-  overflow: hidden;
-  padding-bottom: 400px;
-  /* Adecua este valor para controlar la altura del video */
-  position: relative;
-  height: 0; }
-
-.video-responsive iframe {
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute; }
 
 /* colorCabeceras posicionstincky!*/
 .colorCabeceras {

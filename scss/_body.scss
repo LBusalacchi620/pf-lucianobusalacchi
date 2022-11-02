@@ -30,10 +30,7 @@ footer{
     height: 15%;
     
 }
-.colorCabeceras{
-    background-color: map-get($colores,color-cabecera);
-   
-}
+
 .col-info{
     background-color: map-get($colores,gradienteInfo);
     padding: 1rem 1 rem 1rem 1rem;
@@ -72,17 +69,4 @@ footer{
     margin-top: calc(var(--bs-gutter-y) * -1);
     margin-right: calc(var(--bs-gutter-x) * -.5);
     margin-left: calc(var(--bs-gutter-x) * -.5);
-}
-.video-responsive {
-  overflow:hidden;
-  padding-bottom:400px; /* Adecua este valor para controlar la altura del video */
-  position:relative;
-  height:0;
-}
-.video-responsive iframe{
-  left:0;
-  top:0;
-  height:100%;
-  width:100%;
-  position:absolute;
 }
